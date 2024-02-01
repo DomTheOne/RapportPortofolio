@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    background-image: url("DNettsideSP.png");
+    width: 1200px;
+    align-content: center;
+}
+
+
+
+.navigation ul{
+    text-align: right;
+    display: flex;
+}
+
+.navigation ul li{
+  flex-direction: column-reverse;
+  margin: 20px;
+  position: relative;
+  left:79rem;
+  list-style: none;
+
+}
+
+.navigation ul li a{
+
+    text-decoration: none;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(70, 93, 199);
+}
+
+.navigation ul li ::after{
+
+    content: "";
+    height: 1px;
+    width: 0;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.8s;
+
+}
+
+.navigation ul li :hover::after{
+
+width: 100%;
+
+}
+
+.firstbox a{
+
+    text-decoration: none;
+    border: 5px solid rgb(70, 93, 199);
+    padding:40px;
+   font-size: 5rem;
+   position:relative;
+   left: 20rem;
+   top: 30rem;
+  color:rgb(70, 93, 199);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  transition: 0.5s;
+ 
+
+}
+
+.firstbox a:hover{
+
+color: black;
+background: rgb(255, 255, 255);
+
+}
